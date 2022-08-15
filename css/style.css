@@ -2,6 +2,9 @@
     --montserrat-font: 'Montserrat', sans-serif;
     --avenger-font: 'Avengeance Mightiest Avenger';
 }
+body {
+    height: 6000px;
+}
 
 
 /* Header */
@@ -88,4 +91,58 @@
 .order-btn-text::after {
     content: '\2192';
     margin-left: 14px;
+}
+/* End of Header */
+
+
+
+/* First section */
+.first-section {
+    max-width: 1345px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 140px;
+    text-align: center;
+}
+.first-sec-title {
+    font-family: var(--avenger-font);
+    font-size: 50px;
+    font-weight: 400;
+    color: #A80E0E;
+}
+.first-sec-subtitle {
+    font-family: var(--montserrat-font);
+    font-size: 20px;
+    font-weight: 300;
+    color: #382E36;
+    margin: 42px 0 72px 0;
+}
+.food-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 168px;
+}
+.food-block {
+    width: 248px;
+    height: 236px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.food-img {
+    width: 100.06px;
+    height: 91.92px;
+}
+.food-block-text {
+    margin-top: 20px;
+    font-family: var(--montserrat-font);
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    text-transform: uppercase;
+}
+.food-block:nth-child(3) {
+    border-radius: 5px;
+    box-shadow: 0px 15px 15px rgba(112, 112, 112, 0.2);
 }
