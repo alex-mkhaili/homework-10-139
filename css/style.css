@@ -81,6 +81,11 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 90px;
+    cursor: pointer;
+    transition: all 0.15s linear;
+}
+.order-btn-block:hover {
+    background-color: #ca8701;
 }
 .order-btn-text {
     font-family: var(--avenger-font);
@@ -129,6 +134,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 .food-img {
     width: 100.06px;
@@ -191,3 +197,105 @@ body {
     color: #fff;
 }
 /* End of second section */
+
+
+/* Third section */
+
+.food-menu-container {
+    max-width: 1447px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 126px 15px 0 15px;
+}
+.menu-title-block {
+    text-align: center;
+}
+.menu-title {
+    font-family: var(--avenger-font);
+    font-size: 40px;
+    font-weight: 400;
+    color: #A80E0E;
+    margin-bottom: 62px;
+}
+.menu-subtitle {
+    font-family: var(--montserrat-font);
+    font-size: 20px;
+    font-weight: 300;
+    color: #382E36;
+    margin-bottom: 118px;
+}
+.food-menu-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 56px;
+}
+.dish-img {
+    display: block;
+}
+.dish-descritpion {
+    padding: 73.5px 0 33px 36px;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 0px 15px 15px rgba(112, 112, 112, 0.1);
+}
+.dish-description-title {
+    font-family: var(--montserrat-font);
+    font-size: 22px;
+    font-weight: 400;
+    color: #000;
+}
+.dish-description-subtitle {
+    font-family: var(--montserrat-font);
+    font-size: 16px;
+    font-weight: 200;
+    color: #686868;
+    margin: 12px 0 30px;
+}
+.button-price-block {
+    display: flex;
+    align-items: center;
+}
+.add-btn {
+    width: 164px;
+    height: 40px;
+    background-color: #FFAA00;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.15s linear;
+}
+.add-btn:hover {
+    background-color: #d99100;
+}
+.add-btn-text {
+    font-family: var(--montserrat-font);
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+}
+.dish-price {
+    margin-left: 12px;
+    font-family: var(--avenger-font);
+    font-size: 22px;
+    font-weight: 400;
+    color: #A80E0E;
+}
+.show-menu-btn {
+    width: 255px;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A80E0E;
+    border-radius: 90px;
+    margin: 106px auto 161px;
+}
+.show-menu-btn-text {
+    font-family: var(--avenger-font);
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+/* End of third section */
