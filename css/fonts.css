@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Avengeance Mightiest Avenger';
+    src: url('../fonts/Avengeance-Mightiest-Avenger/AvengeanceMightiestAvenger.eot');
+    src: url('../fonts/Avengeance-Mightiest-Avenger/AvengeanceMightiestAvenger.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Avengeance-Mightiest-Avenger/AvengeanceMightiestAvenger.woff2') format('woff2'),
+        url('../fonts/Avengeance-Mightiest-Avenger/AvengeanceMightiestAvenger.woff') format('woff'),
+        url('../fonts/Avengeance-Mightiest-Avenger/AvengeanceMightiestAvenger.ttf') format('truetype'),
+        url('../fonts/Avengeance-Mightiest-Avenger/AvengeanceMightiestAvenger.svg#AvengeanceMightiestAvenger') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
