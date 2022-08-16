@@ -299,3 +299,114 @@ body {
     color: #fff;
 }
 /* End of third section */
+
+
+/* Footer */
+
+.footer {
+    background-color: #FFAA00;
+    padding: 187px 0 151px;
+}
+.footer-container {
+    max-width: 1480px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 326px;
+    width: 100%;
+    height: 316px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 15px 15px rgba(112, 112, 112, 0.2);
+}
+.footer-icon-1 {
+    margin: 36.5px 0 16.7px;
+}
+.footer-icon-2 {
+    margin: 37px 0 19.8px;
+}
+.footer-icon-3 {
+    margin: 40px 0 23px;
+}
+.footer-icon-4 {
+    margin: 36px 0 18.1px;
+}
+.footer-card-description {
+    text-align: center;
+}
+.card-descritpion-title {
+    font-family: var(--montserrat-font);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    position: relative;
+    color: #000;
+    display: inline-block;
+}
+.card1-title {
+    max-width: 178px;
+    width: 100%;
+    margin-bottom: 36px;
+}
+.card2-title {
+    max-width: 118px;
+    width: 100%;
+    margin-bottom: 36px;
+}
+.card3-title {
+    max-width: 126px;
+    width: 100%;
+    margin-bottom: 36px;
+}
+.card4-title {
+    max-width: 98px;
+    width: 100%;
+    margin-bottom: 36px;
+}
+.card-descritpion-title::after {
+    content: '';
+    width: 50px;
+    height: 3px;
+    background-color: #FFAA00;
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: -18.5px;
+    transform: translateX(-50%);
+}
+.card-descritpion-subtitle {
+    font-family: var(--montserrat-font);
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px;
+    color: #686868;
+}
+.card1-subtitle {
+    max-width: 218px;
+    width: 100%;
+    margin-bottom: 51px;
+}
+.card2-subtitle {
+    max-width: 218px;
+    width: 100%;
+    margin-bottom: 51px;
+}
+.card3-subtitle {
+    max-width: 218px;
+    width: 100%;
+    margin-bottom: 28px;
+}
+.card4-subtitle {
+    max-width: 259px;
+    width: 100%;
+    margin-bottom: 27px;
+}
+/* End of footer */
