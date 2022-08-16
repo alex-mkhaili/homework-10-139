@@ -34,6 +34,32 @@
         font-size: 18px;
     }
 }
+@media (max-width: 1450px) {
+
+    /* Third section */
+
+    .food-menu-container {
+        padding-top: 100px;
+    }
+    .menu-title {
+        font-size: 36px;
+        margin-bottom: 50px;
+    }
+    .menu-subtitle {
+        font-size: 18px;
+        margin-bottom: 94px;
+    }
+    .dish-block {
+        width: 35%;
+    }
+    .food-menu-block {
+        justify-content: space-around;
+    }
+    .show-menu-btn {
+        margin-top: 88px;
+        margin-bottom: 145px;
+    }
+}
 @media (max-width: 1220px) {
 
     /* Header */
@@ -137,6 +163,30 @@
         font-size: 36px;
         line-height: 46px;
     }
+
+
+    /* Third section */
+
+    .dish-block {
+        width: 80%;
+    }
+    .food-menu-block {
+        justify-content: center;
+    }
+    .food-menu-container {
+        padding-top: 80px;
+    }
+    .menu-title {
+        font-size: 30px;
+        margin-bottom: 36px;
+    }
+    .menu-subtitle {
+        margin-bottom: 76px;
+    }
+    .show-menu-btn {
+        margin-top: 65px;
+        margin-bottom: 120px;
+    }
 }
 @media (max-width: 768px) {
 
@@ -206,6 +256,41 @@
     .delivery-subtitle {
         font-size: 16px;
     }
+
+
+    /* Third section */
+
+    .food-menu-container {
+        padding-top: 65px;
+    }
+    .menu-title {
+        font-size: 26px;
+        margin-bottom: 32px;
+    }
+    .menu-subtitle {
+        font-size: 15px;
+        margin-bottom: 58px;
+    }
+    .show-menu-btn {
+        margin-bottom: 100px;
+    }
+    .dish-description-title {
+        font-size: 20px;
+    }
+    .dish-description-subtitle {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .add-btn {
+        width: 150px;
+    }
+    .add-btn-text {
+        font-size: 12px;
+    }
+    .dish-price {
+        margin-left: 8px;
+        font-size: 18px;
+    }
 }
 @media (max-width: 550px) {
 
@@ -262,6 +347,27 @@
     .delivery-subtitle {
         font-size: 13px;
     }
+
+
+    /* Third section */
+
+    .food-menu-container {
+        padding-top: 60px;
+    }
+    .menu-title {
+        font-size: 22px;
+        margin-bottom: 28px;
+    }
+    .menu-subtitle {
+        font-size: 14px;
+        margin-bottom: 50px;
+    }
+    .show-menu-btn {
+        margin-bottom: 75px;
+    }
+    .dish-descritpion {
+        padding-left: 28px;
+    }
 }
 @media (max-width: 420px) {
 
@@ -304,6 +410,31 @@
     .second-section-block {
         padding-left: 0;
     }
+
+
+    /* Third section */
+
+    .food-menu-container {
+        padding-top: 48px;
+    }
+    .menu-title {
+        font-size: 16px;
+        margin-bottom: 24px;
+    }
+    .menu-subtitle {
+        font-size: 12px;
+        margin-bottom: 38px;
+    }
+    .show-menu-btn {
+        width: 220px;
+        height: 50px;
+    }
+    .show-menu-btn-text {
+        font-size: 14px;
+    }
+    .dish-descritpion {
+        padding: 40px 0 24px 22px;
+    }
 }
 @media (max-width: 380px) {
 
@@ -326,6 +457,7 @@
     }
     .food-block {
         width: 70%;
+        height: 175px;
     }
     .food-container {
         justify-content: center;
@@ -349,5 +481,33 @@
     }
     .delivery-subtitle {
         font-size: 10px;
+    }
+
+
+    /* Third section */
+
+    .show-menu-btn {
+        margin-bottom: 45px;
+    }
+    .dish-description-title {
+        font-size: 14px;
+    }
+    .dish-description-subtitle {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    .add-btn {
+        width: 100px;
+        height: 30px;
+    }
+    .add-btn-text {
+        font-size: 10px;
+    }
+    .dish-price {
+        font-size: 14px;
+        margin-left: 20px;
+    }
+    .dish-descritpion {
+        padding: 32px 0 20px 18px;
     }
 }

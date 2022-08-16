@@ -243,8 +243,11 @@ body {
     justify-content: space-between;
     row-gap: 56px;
 }
+.dish-block {
+    
+}
 .dish-img {
-    display: block;
+    width: 100%;
 }
 .dish-descritpion {
     padding: 73.5px 0 33px 36px;
