@@ -126,6 +126,17 @@
     .food-container {
         margin-bottom: 140px;
     }
+
+
+    /* Second section */
+
+    .delivery-title-block {
+        margin-bottom: 40px;
+    }
+    .delivery-title {
+        font-size: 36px;
+        line-height: 46px;
+    }
 }
 @media (max-width: 768px) {
 
@@ -181,6 +192,20 @@
     .food-container {
         margin-bottom: 100px;
     }
+
+
+    /* Second section */
+
+    .delivery-title-block {
+        margin-bottom: 30px;
+    }
+    .delivery-title {
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .delivery-subtitle {
+        font-size: 16px;
+    }
 }
 @media (max-width: 550px) {
 
@@ -223,6 +248,20 @@
     .food-container {
         margin-bottom: 75px;
     }
+
+
+    /* Second section */
+
+    .delivery-title-block {
+        margin-bottom: 20px;
+    }
+    .delivery-title {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .delivery-subtitle {
+        font-size: 13px;
+    }
 }
 @media (max-width: 420px) {
 
@@ -247,6 +286,23 @@
 
     .first-section {
         margin-top: 0;
+    }
+
+
+    /* Second section */
+
+    .delivery-title-block {
+        margin-bottom: 14px;
+    }
+    .delivery-title {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .delivery-subtitle {
+        font-size: 10px;
+    }
+    .second-section-block {
+        padding-left: 0;
     }
 }
 @media (max-width: 380px) {
@@ -279,5 +335,19 @@
     }
     .food-container {
         margin-bottom: 20px;
+    }
+
+
+    /* Second section */
+
+    .delivery-title-block {
+        margin-bottom: 13px;
+    }
+    .delivery-title {
+        font-size: 15px;
+        line-height: 16px;
+    }
+    .delivery-subtitle {
+        font-size: 10px;
     }
 }
