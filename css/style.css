@@ -115,11 +115,12 @@ body {
 
 /* First section */
 .first-section {
-    max-width: 1345px;
+    max-width: 1375px;
     width: 100%;
     margin: 0 auto;
     margin-top: 140px;
     text-align: center;
+    padding: 0 15px;
 }
 .first-sec-title {
     font-family: var(--avenger-font);
