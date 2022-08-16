@@ -101,6 +101,14 @@
     .first-sec-subtitle {
         font-size: 17px;
     }
+
+
+    /* Footer */
+
+    .footer {
+        padding-top: 115px;
+        padding-bottom: 100px;
+    }
 }
 @media (max-width: 1000px) {
 
@@ -186,6 +194,17 @@
     .show-menu-btn {
         margin-top: 65px;
         margin-bottom: 120px;
+    }
+
+
+    /* Footer */
+
+    .footer-container {
+        justify-content: space-around;
+        row-gap: 30px;
+    }
+    .footer-card {
+        width: 42%;
     }
 }
 @media (max-width: 768px) {
@@ -290,6 +309,17 @@
     .dish-price {
         margin-left: 8px;
         font-size: 18px;
+    }
+
+
+    /* Footer */
+
+    .footer {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .footer-card {
+        width: 85%;
     }
 }
 @media (max-width: 550px) {
@@ -435,6 +465,14 @@
     .dish-descritpion {
         padding: 40px 0 24px 22px;
     }
+
+
+    /* Footer */
+
+    .footer {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
 }
 @media (max-width: 380px) {
 
@@ -509,5 +547,12 @@
     }
     .dish-descritpion {
         padding: 32px 0 20px 18px;
+    }
+
+
+    /* Footer */
+
+    .footer {
+        padding-top: 35px;
     }
 }

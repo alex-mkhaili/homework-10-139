@@ -2,9 +2,6 @@
     --montserrat-font: 'Montserrat', sans-serif;
     --avenger-font: 'Avengeance Mightiest Avenger';
 }
-body {
-    height: 6000px;
-}
 
 
 /* Header */
@@ -244,7 +241,7 @@ body {
     row-gap: 56px;
 }
 .dish-block {
-    
+
 }
 .dish-img {
     width: 100%;
@@ -336,8 +333,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 326px;
-    width: 100%;
+    /* max-width: 326px;
+    width: 100%; */
+    width: 22%;
     height: 316px;
     background-color: #fff;
     border-radius: 5px;
