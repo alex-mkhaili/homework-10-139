@@ -1,0 +1,132 @@
+@media (max-width: 1500px) {
+    .header-content {
+        margin: 0;
+    }
+    .title-content {
+        margin-top: 70px;
+    }
+    .main-heading {
+        font-size: 74px;
+    }
+    .heading-block {
+        margin: 66px 0 50px;
+    }
+    .heading {
+        font-size: 24px;
+    }
+}
+@media (max-width: 1220px) {
+    .nav-ul {
+        flex-direction: column;
+        align-items: flex-end;
+        height: 100%;
+        margin-right: 15px;
+    }
+    .title-content {
+        margin-top: 42px;
+    }
+    .main-heading {
+        font-size: 50px;
+    }
+    .heading-block {
+        margin: 22px 0 40px;
+    }
+    .heading {
+        font-size: 18px;
+    }
+    .header-content {
+        padding-left: 50px;
+    }
+}
+@media (max-width: 1000px) {
+    .title-content {
+        margin-top: 34px;
+    }
+    .main-heading {
+        font-size: 34px;
+        line-height: 42px;
+    }
+    .heading-block {
+        margin: 10px 0 30px;
+    }
+    .heading {
+        font-size: 14px;
+    }
+    .header-content {
+        padding-left: 38px;
+    }
+    .order-btn-text {
+        font-size: 22px;
+    }
+    .nav-ul {
+        display: none;
+    }
+    .burger-bar {
+        display: block;
+        padding-top: 20px;
+        margin-right: 15px;
+    }
+}
+@media (max-width: 768px) {
+    .title-content {
+        margin-top: 22px;
+    }
+    .main-heading {
+        font-size: 22px;
+    }
+    .heading-block {
+        margin: 0 0 10px;
+    }
+    .heading {
+        font-size: 13px;
+    }
+    .header-content {
+        padding-left: 26px;
+    }
+    .order-btn-text {
+        font-size: 16px;
+    }
+    .order-btn-block {
+        max-width: 200px;
+        width: 100%;
+        height: 50px;
+    }
+}
+@media (max-width: 550px) {
+    .heading-block {
+        display: none;
+    }
+    .main-heading-block {
+        display: none;
+    }
+    .title-content {
+        margin-top: 40px;
+    }
+    .logo-block {
+        width: 26%;
+    }
+    .middle-block {
+        width: 39%;
+    }
+}
+@media (max-width: 420px) {
+    .burger-bar {
+        padding-top: 8px;
+    }
+    .title-content {
+        margin-top: 30px;
+    }
+    .order-btn-block {
+        max-width: 150px;
+        width: 100%;
+        height: 36px;
+    }
+    .order-btn-text {
+        font-size: 14px;
+    }
+}
+@media (max-width: 380px) {
+    .burger-bar {
+        font-size: 30px;
+    }
+}

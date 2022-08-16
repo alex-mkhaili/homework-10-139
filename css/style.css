@@ -26,9 +26,21 @@ body {
     display: flex;
 }
 .logo-block {
-    width: 65%;
+    width: 17%;
     display: flex;
     justify-content: flex-start;
+}
+.logo-img {
+    max-width: 212.05px;
+    width: 100%;
+}
+.middle-block {
+    width: 48%;
+}
+.burger-bar {
+    color: #fff;
+    font-size: 40px;
+    display: none;
 }
 .navigation-block {
     display: flex;
