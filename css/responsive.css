@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @media (max-width: 1500px) {
 
     /* Header */
@@ -53,7 +60,8 @@
         width: 35%;
     }
     .food-menu-block {
-        justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
     }
     .show-menu-btn {
         margin-top: 88px;
@@ -65,8 +73,13 @@
     /* Header */
 
     .nav-ul {
-        flex-direction: column;
-        align-items: flex-end;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: end;
+            -ms-flex-align: end;
+                align-items: flex-end;
         height: 100%;
         margin-right: 15px;
     }
@@ -179,7 +192,9 @@
         width: 80%;
     }
     .food-menu-block {
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
     .food-menu-container {
         padding-top: 80px;
@@ -200,7 +215,8 @@
     /* Footer */
 
     .footer-container {
-        justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
         row-gap: 30px;
     }
     .footer-card {
@@ -253,7 +269,8 @@
         margin-bottom: 58px;
     }
     .food-container {
-        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
     }
     .food-block {
         width: 33.333%;
@@ -498,7 +515,9 @@
         height: 175px;
     }
     .food-container {
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
     .first-sec-subtitle {
         margin-bottom: 0;
